@@ -1,30 +1,8 @@
-# Camera
-ro.camera.req.fmq.size                                   u:object_r:vendor_camera_prop:s0
-ro.camera.res.fmq.size                                   u:object_r:vendor_camera_prop:s0
-persist.al.ldc.log                               u:object_r:vendor_camera_prop:s0
-persist.al.cfr.loglevel                              u:object_r:vendor_camera_prop:s0
-persist.wa.log.level                             u:object_r:vendor_camera_prop:s0
-persist.sys.camlog.system.af                     u:object_r:vendor_camera_prop:s0
-MACE_CPP_MIN_VLOG_LEVEL                     u:object_r:vendor_camera_prop:s0
-vendor.camera.skip_unconfigure.packagelist       u:object_r:vendor_persist_camera_prop:s0
-
 # Dolby Properties
 ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
-
-# Fs-verity
-pm.dexopt.dm.require_fsverity   		    u:object_r:exported_pm_prop:s0
-pm.dexopt.dm.require_manifest   		    u:object_r:exported_pm_prop:s0
-
-# Graphics
-ro.vendor.gfx.32bit.target          u:object_r:graphics_config_prop:s0
-
-# Hardware
-ro.hardware.chipname    u:object_r:build_prop:s0
-ro.hardware.alter    u:object_r:build_prop:s0
-
 # Global
 ro.boot.hwc              u:object_r:exported_default_prop:s0
 ro.build.flavor          u:object_r:exported_default_prop:s0
